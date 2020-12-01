@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(13, 13, 58);
+    text-align: center;
+}
+
+.level {
+    margin: 0 auto;
+    width: 80vw;
+    color: white;
+    text-align: center;
+    font-size: max(2vw, 40px);
+    font-family: 'Syne Mono', monospace;
+}
+
+.buttons {
+    position: relative;
+    text-align: center;
+    width: 65vh;
+    height: 65vh;
+    margin: 0 auto;
+}
+
+.btn {
+    width: max(30%, 100px); 
+    height: 0;
+    padding-bottom: max(30%, 100px);
+    border-radius: 15%;
+    border: black;
+    border-style: solid;
+    border-width: 10px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.btn:hover {
+    width: 30.2%;
+    height: 0;
+    padding-bottom: 30.2%;
+    opacity: 0.9;
+}
+
+.greenBox {
+    background-color: green;
+}
+
+.redBox {
+    background-color: red;
+}
+
+.yellowBox {
+    background-color: yellow;
+}
+
+.blueBox {
+    background-color: blue;
+}
